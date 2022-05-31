@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import math
-
+#image to be modified has to be in the same directory as photoedit.py
 
 def change_brightness(image, value):
     img = image.copy()
